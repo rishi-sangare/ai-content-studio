@@ -1,0 +1,26 @@
+# Winning-format rebuild (11 Oct): the proven "Roblox is officially healing, someone who can't even spell developer…" hook
+# (6 channels, 100–190K), our own key clicks as the "satisfying sound" (the raw is silent), vibing cat while the keys play,
+# impact + anime wow on "100x cooler", human CTA.
+SPEC = {
+ "id": "fg-005", "src": "keyboard Raw.mp4", "music": "monkeys_spinning_monkeys", "music_db": -7,
+ "concept": "Keyboard Escape, winning format",
+ "cuts": [("A", 0.0, 5.0, 1.0), ("B", 6.0, 13.0, 1.0), ("C", 18.0, 22.0, 1.0, {"snap": 0.08}), ("D", 24.0, 37.4, 1.0)],
+ "hold": (37.0, 1.4),
+ "lines": [("h1", "Roblox is healing. Someone who can't even spell developer built Keyboard Escape with AI.", 0.0),
+           ("v1", "Add letters to the keys.", ("B", 6.9)),
+           ("v2", "Add a satisfying sound.", ("B", 8.3)),
+           ("v3", "Make it a hundred times cooler.", ("C", 18.2)),
+           ("v4", "Add a key press counter.", ("D", 24.1)),
+           ("r1", "Okay. This is weirdly satisfying.", ("D", 29.6)),
+           ("c1", "Five sentences, and Forge G-U-I did the rest.", ("D", 33.0))],
+ "typing": [(("B", 6.0), 1.2), (("B", 7.75), 1.0), (("B", 9.4), 1.6), (("B", 11.2), 1.6), (("C", 18.0), 1.5), (("D", 24.0), 1.4),
+            (("D", 26.0), 1.6), (("D", 30.8), 1.6)],
+ "sfx": [(("C", 19.95), "anime_wow", -14), (("C", 20.0), "vine_boom", -15), (("D", 29.4), "ding", -16)],
+ "fx": [{"at": ("B", 9.6), "gif": "vibing_cat", "gif_s": 2.2, "w": 560, "pos": [0.5, 0.36]},
+        {"at": ("C", 20.0), "impact": 3}, {"at": ("C", 20.0), "shake": 0.3}],
+ "titles": [("I made Keyboard Escape in Roblox 💀", 0.0, ("B", 6.2), "hook", 0.09, 80),
+            ("100x COOLER", ("C", 20.0), ("C", 21.9), "stamp", 0.36, None)],
+ "captions": {"highlight": ["healing", "developer", "keyboard", "escape", "letters", "satisfying", "hundred", "cooler", "counter",
+                            "five", "sentences", "forge", "gui"], "style": {"y": 0.64, "size": 90}},
+ "logo_from": ("D", 33.0), "pill_until": ("D", 36.7),
+}

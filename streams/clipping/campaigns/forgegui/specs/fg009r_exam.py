@@ -1,0 +1,26 @@
+# Winning-format rebuild (11 Oct): the hotbar item is literally "iPhone 67" → the six-seven sound; the teacher turning round with
+# that grin = "caught in 4K" (GIF + camera shutter + impact frames); CTA keeps the joke ("caught in 4K, worth it").
+SPEC = {
+ "id": "fg-009", "src": "cheat during exam.mp4", "music": "sneaky_snitch", "music_db": -9,
+ "concept": "Cheating on a test, winning format",
+ "cuts": [("A", 0.0, 4.6, 1.2), ("B", 4.6, 8.4, 1.2), ("C", 8.4, 11.4, 1.0), ("D", 11.4, 18.8, 1.0), ("E", 18.8, 22.0, 1.0, {"snap": 0.10})],
+ "hold": (21.6, 3.8),
+ "lines": [("h1", "Roblox is so cooked. You can just type your own classroom now.", 0.0),
+           ("v1", "Make me first person.", ("B", 4.9)),
+           ("v2", "Add a test.", ("C", 8.5)),
+           ("r1", "I did not study.", ("C", 9.9)),
+           ("v3", "Give me a phone.", ("D", 11.5)),
+           ("r2", "Okay. Just gonna check one thing.", ("D", 16.4)),
+           ("c1", "Caught in 4K. Worth it though. It's called Forge G-U-I.", ("E", 20.5))],
+ "typing": [(0.0, 1.2), (("B", 4.7), 1.2), (("C", 8.4), 0.9), (("D", 11.4), 1.0)],
+ "sfx": [(("D", 14.95), "six-seven", -11), (("E", 19.0), "record_scratch", -12), (("E", 19.05), "shutter", -10),
+         (("E", 19.1), "vine_boom", -12)],
+ "fx": [{"at": ("E", 19.05), "impact": 4}, {"at": ("E", 19.1), "shake": 0.3},
+        {"at": ("E", 19.2), "gif": "caught_in_4k", "gif_s": 1.3, "w": 520, "pos": [0.5, 0.34]}],
+ "titles": [("Cheating on a test in Roblox using AI 😭", 0.0, ("B", 4.9), "hook", 0.09, 80),
+            ("iPhone 67 💀", ("D", 15.3), ("D", 17.6), "stamp", 0.36, None),
+            ("worth it tho 😭", ("E", 21.0), None, "label", 0.70, None)],
+ "captions": {"highlight": ["cooked", "classroom", "first", "person", "test", "study", "phone", "caught", "four", "forge", "gui"],
+              "style": {"y": 0.62, "size": 90}},
+ "logo_from": ("E", 20.5),
+}

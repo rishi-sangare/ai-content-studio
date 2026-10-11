@@ -1,0 +1,27 @@
+# Nature-documentary parody (hushed British narrator) of the game's real roles, with fake Latin lower-thirds; "Nature is
+# healing" (the 2020 meme, born from ducks/swans back in the canals) lands on the duck pond. Name said last.
+SPEC = {
+ "id": "av-008", "music": "fluffing_a_duck", "music_db": -10, "voice": "voice-doc",
+ "concept": "av-008 ~22 s: nature documentary about my idle game (bear / panda / fox / gold / ducks → 'Nature is healing')",
+ "lines": [("n1", "Here, in the valley, we find the lumberjack bear.", 0.45),
+           ("n2", "He has been chopping trees for nine hours. He has not taken a single break.", 0.45),
+           ("n3", "Nearby, the panda runs the market. He sells the logs. He keeps the coins.", 0.45),
+           ("n4", "And then there is the fox. He has found a pile of acorns. He will not be leaving.", 0.5),
+           ("n5", "By nightfall, the valley is buried in gold.", 0.5),
+           ("n6", "Nature is healing.", 0.45),
+           ("n7", "This is Animal Valley.", 0.3)],
+ "shots": [("n1", "171", 0.4, {"x": 0.49, "y": 0.44, "z": 1.7, "push": 0.04}),
+           ("n2", "171", 2.2, {"push": 0.05, "snap": 0.0}),
+           ("n3", "171", 7.6, {"y": 0.32, "z": 1.45, "push": 0.05}),
+           ("n4", "11", 12.4, {"z": 1.25, "push": 0.05}),
+           ("n5", "486", 19.8, {"z": 1.05, "push": 0.06, "xf": 0.2}),
+           ("n6", "640", 30.05, {"z": 1.15, "push": 0.05, "xf": 0.2}),
+           ("n7", "171", 43.6, {"x": 0.45, "y": 0.42, "z": 1.45, "push": 0.04})],
+ "stamps": [("URSUS CHOPPICUS 🐻", None, 0, "label"), ("PANDA CAPITALIS 🐼", "n3", None, "label"),
+            ("VULPES UNEMPLOYUS 🦊", "n4", None, "label")],
+ "sfx": [(("coins", "n3"), "kaching", -15, 1.0), ("n5", "cine_shimmer", -15), ("n6", "choir", -18, 1.6)],
+ "logo_on": "n7",
+ "hook": "a nature documentary about my phone game 🌿",
+ "highlight": ["bear", "nine", "hours", "break", "panda", "coins", "fox", "acorns", "leaving", "gold", "nature", "healing",
+               "animal", "valley"],
+}

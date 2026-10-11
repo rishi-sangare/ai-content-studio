@@ -1,0 +1,145 @@
+{
+ "clip_id": "fg-008",
+ "campaign_id": "forgegui",
+ "mode": "montage",
+ "voiceover": "streams/clipping/campaigns/forgegui/clips/fg-008/vo_placed.wav",
+ "voiceover_words": "streams/clipping/campaigns/forgegui/clips/fg-008/vo_placed.words.json",
+ "voiceover_lines": "streams/clipping/campaigns/forgegui/clips/fg-008/vo_placed.lines.json",
+ "motion": {
+  "captions": true,
+  "highlight": [
+   "cooked",
+   "grow",
+   "garden",
+   "forty",
+   "seconds",
+   "five",
+   "timer",
+   "rainbow",
+   "mutation",
+   "million",
+   "sheckles",
+   "forge",
+   "gui"
+  ],
+  "style": {
+   "accent": "#FFD23F",
+   "accent2": "#7CFF6B",
+   "y": 0.64,
+   "size": 90
+  },
+  "titles": [
+   {
+    "text": "Can AI make Grow a Garden in 40 seconds? 🌱",
+    "start": 0.0,
+    "end": 6.0,
+    "kind": "hook",
+    "y": 0.09,
+    "size": 80
+   },
+   {
+    "text": "RAINBOW MUTATION 🌈",
+    "start": 25.862,
+    "end": 28.36,
+    "kind": "stamp",
+    "y": 0.36
+   }
+  ]
+ },
+ "game_audio_db": -18,
+ "sharpen": 0.4,
+ "crf": 16,
+ "music": {
+  "path": "streams/clipping/campaigns/forgegui/clips/fg-008/music_bed.wav",
+  "db": 0,
+  "start": 0.0,
+  "duck_threshold": 0.08,
+  "duck_ratio": 2,
+  "credit": "music: \"Monkeys Spinning Monkeys\" by Kevin MacLeod (incompetech.com), licensed under Creative Commons: By Attribution 4.0"
+ },
+ "events": [
+  {
+   "at": 0.769,
+   "sfx": "typing",
+   "db": -16,
+   "sfx_max": 2.4
+  },
+  {
+   "at": 6.0,
+   "sfx": "typing",
+   "db": -16,
+   "sfx_max": 2.0
+  },
+  {
+   "at": 13.4,
+   "sfx": "typing",
+   "db": -16,
+   "sfx_max": 1.8
+  },
+  {
+   "at": 19.477,
+   "sfx": "typing",
+   "db": -16,
+   "sfx_max": 1.0
+  },
+  {
+   "at": 17.477,
+   "sfx": "pop",
+   "db": -12
+  },
+  {
+   "at": 24.862,
+   "sfx": "ding",
+   "db": -14
+  },
+  {
+   "…": "more events"
+  }
+ ],
+ "segments": [
+  {
+   "src": "streams/clipping/campaigns/forgegui/footage/grow a garden.mp4",
+   "in": 0.0,
+   "out": 7.8,
+   "zoom": 1.0,
+   "crop_x": 0.5,
+   "layout": "crop",
+   "push": 0.03,
+   "snap": 0.0,
+   "xfade": 0.0,
+   "speed": 1.3
+  },
+  {
+   "src": "streams/clipping/campaigns/forgegui/footage/grow a garden.mp4",
+   "in": 8.0,
+   "out": 10.4,
+   "zoom": 1.0,
+   "crop_x": 0.5,
+   "layout": "crop",
+   "push": 0.03,
+   "snap": 0.0,
+   "xfade": 0.0
+  },
+  {
+   "src": "streams/clipping/campaigns/forgegui/footage/grow a garden.mp4",
+   "in": 12.0,
+   "out": 17.0,
+   "zoom": 1.0,
+   "crop_x": 0.5,
+   "layout": "crop",
+   "push": 0.03,
+   "snap": 0.0,
+   "xfade": 0.0
+  },
+  {
+   "…": "5 more segments"
+  }
+ ],
+ "must_say": [
+  "forge gui"
+ ],
+ "max_shot_s": 12.0,
+ "min_s": 10,
+ "dead_air_db": -45,
+ "version_note": "spec build"
+}

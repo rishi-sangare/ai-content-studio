@@ -1,0 +1,24 @@
+[project]
+name = "content-studio"
+version = "0.1.0"
+description = "Rishi's content Studio: one shared core, one module per content stream."
+requires-python = ">=3.11"
+dependencies = [
+    "librosa>=0.11.0",
+    "mediapipe>=1.0.1",
+    "mlx-audio>=0.5.6",
+    "parakeet-mlx>=0.5.2",
+    "rembg[cpu]>=2.0.85",
+    "scenedetect[opencv]>=0.7.1",
+    "soundfile>=0.14.0",
+]
+
+[project.scripts]
+studio = "studio.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["studio", "streams"]

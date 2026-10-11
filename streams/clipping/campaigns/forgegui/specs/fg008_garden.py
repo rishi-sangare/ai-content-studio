@@ -1,0 +1,16 @@
+SPEC = {
+ "id": "fg-008", "src": "grow a garden.mp4", "music": "monkeys_spinning_monkeys",
+ "concept": "Grow a Garden in 40 seconds: seed → 5 s timer → press E → rainbow mutation",
+ "cuts": [("A", 0.0, 7.8, 1.3), ("B1", 8.0, 10.4, 1.0), ("B2", 12.0, 17.0, 1.0), ("C1", 17.3, 20.0, 1.3), ("C2", 22.0, 26.0, 1.0),
+          ("D1", 26.0, 33.0, 1.3), ("D2", 33.0, 40.0, 1.0, {"snap": 0.08})],
+ "hold": (39.6, 1.2),
+ "lines": [("v1", "Make a seed. And let me plant it.", ("A", 0.3)), ("v2", "Add a five second timer before it's ready.", ("B1", 8.1)),
+           ("r1", "Five seconds is way too long.", ("B2", 13.6)), ("v3", "Make me pick it up when I press E.", ("C1", 17.4)),
+           ("v4", "Make a rainbow mutation.", ("D1", 26.1)), ("c1", "Forty seconds of typing, and Forge GUI did all of it.", ("D2", 36.0))],
+ "typing": [(("A", 0.0), 2.6), (("B1", 8.0), 2.0), (("C1", 17.3), 1.8), (("D1", 26.0), 1.0)],
+ "sfx": [(("C2", 24.0), "pop", -12), (("D2", 33.0), "ding", -14), (("D2", 34.0), "yippee", -14, 1.6)],
+ "titles": [("Can AI make Grow a Garden in 40 seconds? 🌱", 0.0, ("A", 4.0), "hook", 0.09, 80),
+            ("RAINBOW MUTATION 🌈", ("D2", 34.0), ("D2", 35.9), "stamp", 0.36, None),
+            ("40 seconds of typing ⌨️", ("D2", 36.2), None, "label", 0.58, None)],
+ "logo_from": ("D2", 36.0),
+}

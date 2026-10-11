@@ -1,0 +1,25 @@
+# Winning-format rebuild (10 Oct): GTA 6 keeps getting delayed → "Rockstar is taking forever, so I made it myself"; IShowSpeed shock
+# when the car actually drives; Key & Peele sweating = "Rockstar watching this" on the CTA.
+SPEC = {
+ "id": "fg-003", "src": "✨Added This Week/Copy of gta6 raw.mp4", "music": "sneaky_snitch", "music_db": -9,
+ "concept": "GTA 6 before GTA 6, winning format",
+ "cuts": [("A", 0.0, 9.9, 1.0), ("B", 11.0, 19.4, 1.0)],
+ "hold": (19.3, 1.8),
+ "lines": [("h1", "Okay, Rockstar is taking forever, so I made GTA 6 myself.", 0.0),
+           ("v1", "Now add weapons.", ("A", 4.35)),
+           ("v2", "Add a weapons toolbar.", ("A", 5.55)),
+           ("v3", "Add a car from the toolbox.", ("A", 7.35)),
+           ("r1", "Wait. It actually drives.", ("B", 12.6)),
+           ("c1", "Hey Rockstar, if you're watching. It's called Forge G-U-I.", ("B", 15.9))],
+ "typing": [(0.0, 1.5), (("A", 2.8), 1.8), (("A", 6.8), 1.8)],
+ "sfx": [(("A", 1.9), "cine_shimmer", -15), (("A", 5.0), "pop", -15), (("A", 6.0), "vine_boom", -13), (("A", 8.9), "cine_boom", -14),
+         (("B", 12.0), "cine_whoosh", -15), (("B", 12.45), "original-sheesh", -15, 1.2), (("B", 15.7), "taco-bell-bong-sfx", -16)],
+ "fx": [{"at": ("A", 8.9), "shake": 0.3},
+        {"at": ("B", 13.1), "gif": "ishowspeed_shocked", "gif_s": 1.4, "w": 640, "pos": [0.5, 0.40]},
+        {"at": ("B", 15.75), "gif": "sweating_key_peele", "gif_s": 2.1, "w": 520, "pos": [0.5, 0.42]}],
+ "titles": [("making GTA 6 in roblox before GTA 6 😭", 0.0, ("A", 4.0), "hook", 0.09, 80),
+            ("rockstar rn:", ("B", 15.75), ("B", 15.75 + 2.1), "stamp", 0.20, None)],
+ "captions": {"highlight": ["rockstar", "gta", "weapons", "toolbar", "car", "drives", "forge", "g-u-i", "forever"],
+              "style": {"y": 0.64, "size": 92}},
+ "logo_from": ("B", 15.9),
+}

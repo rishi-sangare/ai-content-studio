@@ -1,0 +1,15 @@
+SPEC = {
+ "id": "fg-006", "src": "Backrooms RAW.mp4", "music": "sneaky_snitch", "music_db": -9,
+ "concept": "Making the Backrooms in Roblox: map → run faster → 10x cooler → the lights go out → 'Okay, I'm leaving.'",
+ "cuts": [("A1", 0.0, 8.0, 1.0), ("A2", 14.3, 25.6, 1.0), ("B", 25.6, 27.2, 1.0)],
+ "hold": (26.8, 1.6),
+ "lines": [("v1", "Make a backrooms map.", ("A1", 0.2)), ("v2", "Make me run faster. And make the cursor cooler.", ("A1", 4.9)),
+           ("v3", "Make everything ten times cooler.", ("A2", 14.6)), ("r1", "Who turned off the lights.", ("A2", 22.2)),
+           ("c1", "Okay, I'm leaving. Forge GUI made it way too real.", ("A2", 24.0))],
+ "typing": [(("A1", 0.0), 1.4), (("A1", 4.6), 2.8), (("A2", 14.4), 2.0)],
+ "sfx": [(("A1", 1.8), "cine_drone", -20), (("A2", 16.4), "cine_shimmer", -15), (("A2", 21.9), "cine_whoosh_down", -12)],
+ "titles": [("making the backrooms in roblox 💀", 0.0, ("A1", 4.6), "hook", 0.09, 80),
+            ("10x COOLER", ("A2", 16.6), ("A2", 19.0), "stamp", 0.36, None),
+            ("run 💀", ("A2", 24.2), None, "label", 0.58, None)],
+ "logo_from": ("A2", 24.0), "pill_until": ("B", 26.4),
+}

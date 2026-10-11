@@ -1,0 +1,17 @@
+SPEC = {
+ "id": "fg-004", "src": "gojo saturo raw.mp4", "music": "sneaky_snitch",
+ "concept": "I became Gojo in Roblox using AI: fit → Hollow Purple → city + dummies blast → Infinite Void → 'Nah, I'd win.'",
+ "cuts": [("A", 0.8, 11.2, 1.0), ("B", 12.5, 16.2, 1.5), ("C", 16.2, 21.5, 1.0, {"snap": 0.10}), ("D1", 27.3, 31.6, 1.3), ("D2", 31.6, 37.2, 1.0)],
+ "hold": (36.6, 1.4),
+ "lines": [("v1", "Give me Gojo's fit.", ("A", 1.0)), ("v2", "Give me Gojo's Hollow Purple.", ("A", 3.2)),
+           ("r1", "Okay. That's actually Hollow Purple.", ("A", 8.6)), ("v3", "Spawn a city. And some dummies.", ("B", 12.6)),
+           ("v4", "Now activate Infinite Void.", ("D1", 27.6)), ("c1", "Nah, I'd win. Forge GUI built all of it.", ("D2", 33.4))],
+ "typing": [(("A", 0.6), 1.6), (("A", 3.0), 2.4), (("B", 12.5), 1.6), (("D1", 27.5), 2.6)],
+ "sfx": [(("A", 8.2), "cine_shimmer", -14), (("C", 16.9), "cine_boom", -10), (("C", 17.0), "vine_boom", -14),
+         (("C", 18.4), "cine_whoosh", -15), (("D2", 31.7), "cine_swell_short", -13), (("D2", 32.9), "cine_boom", -12)],
+ "titles": [("I became Gojo in Roblox using AI 😭", 0.0, ("A", 3.0), "hook", 0.09, 80),
+            ("HOLLOW PURPLE 💜", ("A", 8.6), ("A", 11.1), "stamp", 0.36, None),
+            ("INFINITE VOID", ("D2", 32.9), ("D2", 33.3), "stamp", 0.36, None),
+            ("nah, I'd win 😭", ("D2", 33.5), None, "label", 0.58, None)],
+ "logo_from": ("D2", 33.3),
+}

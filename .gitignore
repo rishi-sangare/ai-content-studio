@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+studio/data/
+*.mp4
+*.wav
+.DS_Store

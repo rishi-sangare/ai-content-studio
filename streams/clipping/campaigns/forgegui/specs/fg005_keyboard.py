@@ -1,0 +1,16 @@
+SPEC = {
+ "id": "fg-005", "src": "keyboard Raw.mp4", "music": "monkeys_spinning_monkeys",
+ "concept": "Keyboard Escape in Roblox: keyboard → keys press → letters → satisfying sound → 100x cooler → key press counter → combos",
+ "cuts": [("A", 0.0, 5.0, 1.0), ("B", 6.0, 13.0, 1.0), ("C", 18.0, 22.0, 1.0, {"snap": 0.08}), ("D", 24.0, 37.4, 1.0)],
+ "hold": (37.0, 1.2),
+ "lines": [("v1", "Add a keyboard.", ("A", 0.1)), ("v2", "Make the keys press when I step on them.", ("A", 1.6)),
+           ("v3", "Add letters to the keys.", ("B", 6.2)), ("v4", "Add a satisfying sound.", ("B", 7.9)),
+           ("v5", "Make it a hundred times cooler.", ("C", 18.2)), ("v6", "Add a key press counter.", ("D", 24.1)),
+           ("r1", "Okay. This is weirdly satisfying.", ("D", 30.0)), ("c1", "That's like five sentences. Forge GUI did the rest.", ("D", 33.0))],
+ "typing": [(("A", 0.0), 2.6), (("A", 2.8), 2.2), (("B", 6.0), 2.6), (("B", 9.0), 3.5), (("C", 18.0), 1.5), (("D", 24.0), 1.4), (("D", 29.5), 3.0)],
+ "sfx": [(("C", 20.0), "cine_shimmer", -14), (("D", 29.6), "ding", -15), (("D", 31.5), "ding", -15)],
+ "titles": [("I made Keyboard Escape in Roblox 💀", 0.0, ("A", 2.6), "hook", 0.09, 80),
+            ("100x COOLER", ("C", 19.9), ("C", 21.9), "stamp", 0.36, None),
+            ("all typed into ForgeGUI ⌨️", ("D", 33.2), None, "label", 0.74, None)],
+ "logo_from": ("D", 33.0), "pill_until": ("D", 36.7),
+}

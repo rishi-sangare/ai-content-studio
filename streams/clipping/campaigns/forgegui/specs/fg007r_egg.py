@@ -1,0 +1,27 @@
+# Winning-format rebuild (10 Oct): cooked hook, Speed shocked at the 10x hatch, +$25/sec, the mother chicken = CHICKEN JOCKEY
+# (Minecraft Movie meme, Jack Black), sad hamster on her "...fine.", human CTA.
+SPEC = {
+ "id": "fg-007", "src": "steal an egg raw.mp4", "music": "fluffing_a_duck", "music_db": -9,
+ "concept": "Steal an Egg, winning format",
+ "cuts": [("A", 0.3, 7.6, 1.3), ("C", 7.5, 14.8, 1.3), ("D", 15.0, 19.6, 1.6), ("E", 22.6, 26.0, 1.0),
+          ("F", 46.0, 51.0, 1.6), ("G", 54.4, 62.5, 1.0, {"snap": 0.08})],
+ "hold": (60.6, 1.8),
+ "lines": [("h1", "Roblox is so cooked. Someone made Steal an Egg with AI.", 0.0),
+           ("v1", "Make me hatch eggs.", ("A", 5.95)),
+           ("v2", "Make the hatching ten times cooler.", ("C", 7.6)),
+           ("v3", "Make me earn money from the chicken.", ("D", 15.1)),
+           ("v4", "Now make a mother chicken that chases me when I steal her eggs.", ("F", 46.1)),
+           ("c1", "I stole one egg. It's called Forge G-U-I, by the way.", ("G", 60.3))],
+ "typing": [(("A", 0.3), 2.0), (("C", 7.5), 1.6), (("D", 15.0), 2.6), (("F", 46.0), 3.0)],
+ "sfx": [(("C", 11.2), "cine_shimmer", -14), (("E", 23.9), "kaching", -13, 1.0),
+         (("G", 55.68), "chicken-jockey", -7), (("G", 56.0), "vine_boom", -13), (("G", 59.0), "bruh", -12)],
+ "fx": [{"at": ("C", 11.3), "gif": "ishowspeed_shocked", "gif_s": 1.3, "w": 620, "pos": [0.5, 0.36]},
+        {"at": ("G", 56.0), "impact": 3},
+        {"at": ("G", 56.05), "gif": "chicken_jockey_jack_black", "gif_s": 1.8, "w": 560, "pos": [0.5, 0.40]},
+        {"at": ("G", 59.05), "gif": "sad_hamster", "gif_s": 1.2, "w": 420, "pos": [0.5, 0.36]}],
+ "titles": [("I made Steal an Egg in Roblox using AI 😭", 0.0, ("A", 5.0), "hook", 0.09, 80),
+            ("+$25/sec 🤑", ("E", 23.9), ("E", 25.9), "stamp", 0.36, None)],
+ "captions": {"highlight": ["cooked", "steal", "egg", "eggs", "hatch", "cooler", "money", "chicken", "mother", "chases",
+                            "forge", "g-u-i"], "style": {"y": 0.62, "size": 92}},
+ "logo_from": ("G", 60.3),
+}

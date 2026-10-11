@@ -1,0 +1,26 @@
+# Winning-format rebuild (11 Oct): Gamer Guy's 519K hook shape ("someone made Grow a Garden with AI… in 40 seconds"),
+# skeleton "patiently waiting" on "five seconds is way too long", rainbow mutation = "worth like a million Sheckles"
+# (Grow a Garden's real currency, the insider joke), human CTA.
+SPEC = {
+ "id": "fg-008", "src": "grow a garden.mp4", "music": "monkeys_spinning_monkeys", "music_db": -7,
+ "concept": "Grow a Garden in 40 seconds, winning format",
+ "cuts": [("A", 0.0, 7.8, 1.3), ("B1", 8.0, 10.4, 1.0), ("B2", 12.0, 17.0, 1.0), ("C1", 17.3, 20.0, 1.3), ("C2", 22.0, 26.0, 1.0),
+          ("D1", 26.0, 33.0, 1.3), ("D2", 33.0, 40.0, 1.0, {"snap": 0.08})],
+ "hold": (39.6, 1.6),
+ "lines": [("h1", "Roblox is so cooked. Someone just made Grow a Garden with AI, in forty seconds.", 0.0),
+           ("v1", "Add a five second timer before it's ready.", ("B1", 8.1)),
+           ("r1", "Five seconds is way too long.", ("B2", 13.0)),
+           ("v2", "Make me pick it up when I press E.", ("C1", 17.4)),
+           ("v3", "Make a rainbow mutation.", ("D1", 26.1)),
+           ("r2", "That's worth like a million Sheckles.", ("D2", 34.3)),
+           ("c1", "Forty seconds of typing, and Forge G-U-I did all of it.", ("D2", 36.6))],
+ "typing": [(("A", 1.0), 2.4), (("B1", 8.0), 2.0), (("C1", 17.3), 1.8), (("D1", 26.0), 1.0)],
+ "sfx": [(("C2", 24.0), "pop", -12), (("D2", 33.0), "ding", -14), (("D2", 34.0), "kaching", -13, 1.0)],
+ "fx": [{"at": ("B2", 13.2), "gif": "skeleton_waiting", "gif_s": 1.7, "w": 460, "pos": [0.5, 0.36]},
+        {"at": ("D2", 34.0), "impact": 3}],
+ "titles": [("Can AI make Grow a Garden in 40 seconds? 🌱", 0.0, ("B1", 8.0), "hook", 0.09, 80),
+            ("RAINBOW MUTATION 🌈", ("D2", 34.0), ("D2", 36.5), "stamp", 0.36, None)],
+ "captions": {"highlight": ["cooked", "grow", "garden", "forty", "seconds", "five", "timer", "rainbow", "mutation", "million",
+                            "sheckles", "forge", "gui"], "style": {"y": 0.64, "size": 90}},
+ "logo_from": ("D2", 36.6), "fix_words": {"shekels": "Sheckles"},
+}

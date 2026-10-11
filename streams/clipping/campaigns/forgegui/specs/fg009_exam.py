@@ -1,0 +1,16 @@
+SPEC = {
+ "id": "fg-009", "src": "cheat during exam.mp4", "music": "sneaky_snitch",
+ "concept": "Cheating on a test in Roblox: classroom → sit → first person → test → phone ('iPhone 67') → the teacher is right there",
+ "cuts": [("A", 0.0, 4.6, 1.2), ("B", 4.6, 8.4, 1.2), ("C", 8.4, 11.4, 1.0), ("D", 11.4, 18.8, 1.0), ("E", 18.8, 22.0, 1.0, {"snap": 0.10})],
+ "hold": (21.6, 1.6),
+ "lines": [("v1", "Add a classroom.", ("A", 0.1)), ("v2", "Let me sit down.", ("A", 2.1)), ("v3", "Make me first person.", ("B", 4.8)),
+           ("v4", "Add a test.", ("C", 8.5)), ("r1", "I did not study.", ("C", 9.9)), ("v5", "Give me a phone.", ("D", 11.5)),
+           ("r2", "Okay. Just gonna check one thing.", ("D", 15.6)), ("c1", "I got caught. But Forge GUI built this whole classroom.", ("E", 20.0))],
+ "typing": [(("A", 0.0), 1.2), (("A", 2.0), 1.2), (("B", 4.7), 1.2), (("C", 8.4), 0.9), (("D", 11.4), 1.0)],
+ "sfx": [(("D", 15.2), "discord-notification", -16), (("E", 19.0), "record_scratch", -12), (("E", 19.3), "vine_boom", -11)],
+ "titles": [("Cheating on a test in Roblox using AI 😭", 0.0, ("A", 4.0), "hook", 0.09, 80),
+            ("iPhone 67 💀", ("D", 15.4), ("D", 17.6), "stamp", 0.36, None),
+            ("CAUGHT 💀", ("E", 19.3), ("E", 19.95), "stamp", 0.36, None),
+            ("worth it tho 😭", ("E", 20.2), None, "label", 0.58, None)],
+ "logo_from": ("E", 20.0),
+}

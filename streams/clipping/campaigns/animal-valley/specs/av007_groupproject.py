@@ -1,0 +1,30 @@
+# "Every group project has the same three animals" — universal relatable meme cast onto the game's real roles: bear chops
+# (does all the work), panda at the SELL booth (presents it), fox in the acorn pile (shows up at the end, takes the acorns).
+# Name said near the end, then "So which one are you?" (comment bait) over bear + fox → loops to the start.
+SPEC = {
+ "id": "av-007", "music": "sneaky_snitch",
+ "concept": "av-007 ~17 s: every group project has these 3 animals (bear/panda/fox), name, which one are you?",
+ "lines": [("n1", "Every group project has the same three animals.", 0.3),
+           ("n2", "The bear does literally all the work.", 0.3),
+           ("n3", "The panda just stands there and presents it.", 0.3),
+           ("n4", "And the fox shows up at the very end and takes all the acorns.", 0.4),
+           ("n4b", "And the ducks have not answered the group chat since Tuesday.", 0.4),
+           ("n5", "This is Animal Valley, by the way.", 0.3),
+           ("n6", "So which one are you?", 0.3)],
+ "shots": [("n1", "171", 43.6, {"x": 0.45, "y": 0.42, "z": 1.45, "push": 0.05}),
+           ("n2", "171", 2.2, {"push": 0.05, "snap": 0.08}),
+           (("all", "n2"), "171", 0.4, {"x": 0.49, "y": 0.44, "z": 1.7, "push": 0.04, "snap": 0.10}),
+           ("n3", "171", 7.6, {"y": 0.32, "z": 1.45, "push": 0.05, "snap": 0.08}),
+           ("n4", "11", 12.4, {"z": 1.25, "push": 0.06, "snap": 0.08}),
+           ("n4b", "640", 30.05, {"z": 1.15, "push": 0.06, "snap": 0.08}),
+           (("since", "n4b"), "640", 0.0, {"z": 1.15, "push": 0.07, "freeze": 32.6}),
+           ("n5", "486", 19.8, {"z": 1.05, "push": 0.07, "xf": 0.15}),
+           ("n6", "171", 43.6, {"x": 0.45, "y": 0.42, "z": 1.45, "push": 0.05})],
+ "stamps": [("DOES EVERYTHING 🪓", ("all", "n2"), None, "stamp"), ("PRESENTS IT 🎤", ("stands", "n3"), None, "stamp"),
+            ("TAKES THE CREDIT 🦊", ("takes", "n4"), None, "stamp"), ("LEFT ON READ 📵", ("answered", "n4b"), None, "stamp"), ("comment 👇", "n6", None, "label")],
+ "sfx": [(("all", "n2"), "pop", -15), (("presents", "n3"), "pop", -15), (("acorns", "n4"), "kaching", -14, 1.0),
+         (("answered", "n4b"), "bruh", -14), ("n5", "cine_shimmer", -17, None, -0.2)],
+ "logo_on": "n5",
+ "hook": "every group project 😭",
+ "highlight": ["group", "project", "bear", "panda", "fox", "work", "presents", "acorns", "ducks", "chat", "tuesday", "animal", "valley", "you"],
+}
